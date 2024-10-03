@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4D04E;
+    font-family: "figtree";
+    overflow-x: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 384px;
+    height: 522px;
+    background-color: white;
+    text-align: left;
+    border-radius: 20px;
+    border: 1px solid #1E1E1E;
+    box-shadow: 8px 8px black;
+}
+
+
+
+svg {
+    width: 336px;
+    height: 200px;
+    display: block;
+    margin: 24px auto;
+    border-radius: 10px;
+
+}
+
+.content {
+    width: 336px;
+    height: 194px;
+    margin: 0 auto;
+}
+
+
+
+.learning {
+    display: inline;
+    background-color:#F4D04E;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+p{
+    margin: 20px auto;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 800;
+    text-wrap: nowrap;
+}
+
+.content > h2 > a {
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+.content > h2 > a:hover {
+    color: #F4D04E;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+  
+}
+
+.author {
+   display: flex;
+   align-items: center;
+}
+
+.author-name {
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 12px;
+ 
+}
